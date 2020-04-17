@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
 	<title>Free portfolio</title>
 	<link rel="stylesheet" href="./css/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/df5f755f6d.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header>
@@ -14,9 +15,9 @@
 			<a href="#">Accept</a></div>
 		<div>	
 		<div class="cirlce">
-			<img src="./img/label.png">
+			<img src="./img/label.png" alt="">
 		<button class="menu">
-		<span>&#9776</span>
+			<i class="fas fa-bars"></i>
 		</button>
 		</div>	
 		
@@ -39,69 +40,68 @@
 
 		<section class="expert_section">
 			<h2>Expert In</h2>
-			<table>
-				<tr>
-					<td><img src="https://img.icons8.com/color/96/000000/android-tablet.png"></td>
-					<td><img src="https://img.icons8.com/color/96/000000/laptop--v2.png"></td>
-					<td><img src="https://img.icons8.com/color/96/000000/code.png"></td>
-				</tr>
+			<div class="expert_table">
+				<div class="column">
+					<img src="https://img.icons8.com/color/96/000000/android-tablet.png" alt="">
+					<h3 class="experts_categories">mobile app design</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisiving</p> <p>elit, sed do eiusmod tempor incidlidunt ut labore et</p> <p>dolore magna aliqua. Ut enim ad minim</p>
+				</div>
 
-				<tr>
-					<td><p class="experts_categories">mobile app design</p></td>
-					<td><p class="experts_categories">web design</p></td>
-					<td><p class="experts_categories">web development</p></td>
-				</tr>
+				<div class="column">
+					<img src="https://img.icons8.com/color/96/000000/laptop--v2.png" alt="">
+					<h3 class="experts_categories">web design</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur</p> <p>adipisiving elit, sed do eiusmod tempor</p> <p>incidlidunt ut labore et dolore magna aliqua.</p>
+				</div>
 
-				<tr>
-					<td><p>Lorem ipsum dolor sit amet, consectetur adipisiving</p> <p>elit, sed do eiusmod tempor incidlidunt ut labore et</p> <p>dolore magna aliqua. Ut enim ad minim</p></td>
+				<div class="column">
+					<img src="https://img.icons8.com/color/96/000000/code.png" alt="">
+					<h3 class="experts_categories">web development</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisiving</p> <p>elit, sed do eiusmod tempor incidlidunt ut labore et</p> <p>dolore magna aliqua. Ut enim ad minim</p>
+				</div>
+			
+				<div class="column">
+					<img src="https://img.icons8.com/color/96/000000/shopping-basket-2.png" alt="">
+					<h3 class="experts_categories">product design</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisiving</p> <p>elit, sed do eiusmod tempor incidlidunt ut labore et</p> <p>dolore magna aliqua. Ut enim ad minim</p>
+				</div>
 
-					<td><p>Lorem ipsum dolor sit amet, consectetur</p> <p>adipisiving elit, sed do eiusmod tempor</p> <p>incidlidunt ut labore et dolore magna aliqua.</p></td>
+				<div class="column">
+					<img src="./img/ux.png" alt="">
+					<h3 class="experts_categories">ux&ui</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur</p> <p>adipisiving elit, sed do eiusmod tempor</p> <p>incidlidunt ut labore et dolore magna aliqua.</p>
+				</div>
 
-					<td><p>Lorem ipsum dolor sit amet, consectetur adipisiving</p> <p>elit, sed do eiusmod tempor incidlidunt ut labore et</p> <p>dolore magna aliqua. Ut enim ad minim</p></td>
-				</tr>
-
-				<tr>
-					<td><img src="https://img.icons8.com/color/96/000000/shopping-basket-2.png"></td>
-					<td><img src="./img/ux.png"></td>
-					<td><img src="https://img.icons8.com/color/96/000000/camcorder-pro.png"></td>
-				</tr>
-
-				<tr>
-					<td><p class="experts_categories">product design</p></td>
-					<td><p class="experts_categories">ux&ui</p></td>
-					<td><p class="experts_categories">animations</p></td>
-				</tr>
-
-				<tr>
-					<td><p>Lorem ipsum dolor sit amet, consectetur adipisiving</p> <p>elit, sed do eiusmod tempor incidlidunt ut labore et</p> <p>dolore magna aliqua. Ut enim ad minim</p></td>
-
-					<td><p>Lorem ipsum dolor sit amet, consectetur</p> <p>adipisiving elit, sed do eiusmod tempor</p> <p>incidlidunt ut labore et dolore magna aliqua.</p></td>
-
-					<td><p>Lorem ipsum dolor sit amet, consectetur adipisiving</p> <p>elit, sed do eiusmod tempor incidlidunt ut labore et</p> <p>dolore magna aliqua. Ut enim ad minim</p></td>
-				</tr>
-			</table>
+				<div class="column">
+					<img src="https://img.icons8.com/color/96/000000/camcorder-pro.png" alt="">
+					<h3 class="experts_categories">animations</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisiving</p> <p>elit, sed do eiusmod tempor incidlidunt ut labore et</p> <p>dolore magna aliqua. Ut enim ad minim</p>
+				</div>
+			</div>
 		</section>
 
 		<section class="latest_works">
 			<h2>Latest Works</h2>
 			<div>
-				<img src="./img/latest-works.png">
+				<img src="./img/latest-works.png" alt="">
 			</div>	
 		</section>
 
 		<section class="clients">
 			<h2>Clients</h2>
 		<div>
-			<img src="./img/microsoft.png">
-			<img src="./img/samsung.png">
-			<img src="./img/ibm.png">
-			<img src="./img/google.png" id="google">
+			<img src="./img/microsoft.png" alt="">
+			<img src="./img/samsung.png" alt="">
+			<img src="./img/ibm.png" alt="">
+			<img src="./img/google.png" id="google" alt="">
 		</div>
 	</section>
 	</main>	
 	<footer>
-		<p>Need a graphic designer?&nbsp<b>Ready to work!</b></p>
+		<div>
+			<p>Need a graphic designer? </p><span>Ready to work!</span>
+		</div>
 		<a href="#">Hire me</a>
+			
 	</footer>	
 </body>
 </html>	
